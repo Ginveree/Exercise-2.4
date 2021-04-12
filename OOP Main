@@ -1,0 +1,25 @@
+package Exercise2point4;
+
+public class Main {
+
+	public static void main(String[] args) {
+		HairDryer dyson = new HairDryer();
+		
+		dyson.setModel("Supersonic HD03");
+		dyson.setColour("Rose Red");
+		dyson.setPrice(1649.00);
+		dyson.setWatt(1600);
+		dyson.setHeat(4);
+		dyson.setNozzle('Y');
+		
+		System.out.println("Model: " + dyson.getModel());
+		System.out.println("Colour: " + dyson.getColour());
+		System.out.printf("%s%.2f\n","Price: RM ",dyson.getPrice());
+		System.out.println("Wattage: " + dyson.getWatt() + " Watts");
+		System.out.println(dyson.getHeat() + " Heat Setting");
+		System.out.println("Nozzle: " + dyson.getNozzle());
+	    dyson.function("drying", "styling", "dusting");
+
+	}
+
+}
