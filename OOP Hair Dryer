@@ -1,0 +1,55 @@
+package Exercise2point4;
+
+public class HairDryer {
+	//declaration
+	double price;
+	String colour, model;
+	int watt, heat;
+	char nozzle;
+  
+	//create setter method
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public void setWatt(int watt) {
+		this.watt = watt;
+	}
+	public void setHeat(int heat) {
+		this.heat = heat;
+	}
+    public void setNozzle(char nozzle) {
+    	this.nozzle = nozzle;
+    }
+    
+    //create getter method
+    public double getPrice() {
+    	return this.price;
+    }
+    public String getColour() {
+    	return this.colour;
+    }
+    public String getModel() {
+    	return this.model;
+    }
+    public int getWatt() {
+    	return this.watt;
+    }
+    public int getHeat() {
+    	return this.heat;
+    }
+    public char getNozzle() {
+    	return this.nozzle;
+    }
+    
+    //create function method
+    public void function(String f1, String f2, String f3) {
+    	System.out.println("The functions of a hair dryer are " + f1 + ", " + f2 + " and " + f3);
+    }
+    
+}
